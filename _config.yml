@@ -12,7 +12,7 @@ description: >
 
 # Build settings
 
-remote theme: al-folio
+theme: minimal
 
 plugins:
   - jekyll-feed
