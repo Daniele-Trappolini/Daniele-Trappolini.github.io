@@ -6,9 +6,9 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 projects:
-- {title: 'CDiffSD', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-- {title: 'CDiffSD', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-- {title: 'CDiffSD', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {title: 'CDiffSD', longtitle:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {title: 'CDiffSD', longtitle:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {title: 'CDiffSD', longtitle:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
 
 
 courses:
