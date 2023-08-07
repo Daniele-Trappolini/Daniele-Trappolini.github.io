@@ -3,3 +3,4 @@ url: "https://daniele-trappolini.github.io/" # the base hostname & protocol for 
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Daniele-Trappolini" # the name of your site, e.g. ACME Corp.
 description: "Phd Student in Data Science at Sapienza, University of Rome in collaboration with INGV (Istito Nazionale di Geofisica e Vulcanologia)."
+
