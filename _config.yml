@@ -12,8 +12,4 @@ description: >
 
 # Build settings
 
-theme: minimal
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+remote_theme: al-folio
