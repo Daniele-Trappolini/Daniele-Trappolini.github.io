@@ -1,8 +1,8 @@
 featured:
-- {name: 'DiffSD: Diffusion models for seismic denoising." EGU European Geoscience Union General Assembly 2023.', url: 'https://meetingorganizer.copernicus.org/EGU23/EGU23-13811.html'}
-- {name: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks." EGU General Assembly Conference Abstracts. 2022.', url: 'https://ui.adsabs.harvard.edu/abs/2022EGUGA..24.5361T/abstract'}
+- {name: 'DiffSD: Diffusion models for seismic denoising." EGU European Geoscience Union General Assembly 2023."', url: 'https://meetingorganizer.copernicus.org/EGU23/EGU23-13811.html'}
+- {name: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks." EGU General Assembly Conference Abstracts. 2022."', url: 'https://ui.adsabs.harvard.edu/abs/2022EGUGA..24.5361T/abstract'}
 
 index:
-- {name: 'DiffSD: Diffusion models for seismic denoising." EGU European Geoscience Union General Assembly 2023.', url: 'https://meetingorganizer.copernicus.org/EGU23/EGU23-13811.html'}
-- {name: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks." EGU General Assembly Conference Abstracts. 2022.', url: 'https://ui.adsabs.harvard.edu/abs/2022EGUGA..24.5361T/abstract'}
+- {name: 'DiffSD: Diffusion models for seismic denoising." EGU European Geoscience Union General Assembly 2023."', url: 'https://meetingorganizer.copernicus.org/EGU23/EGU23-13811.html'}
+- {name: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks." EGU General Assembly Conference Abstracts. 2022."', url: 'https://ui.adsabs.harvard.edu/abs/2022EGUGA..24.5361T/abstract'}
 
