@@ -6,7 +6,7 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 projects:
-- {title: 'CDiffSD', name:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {title: 'CDiffSD', name:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'https://github.com/Daniele-Trappolini/Diffusion-Model-for-Earthquake'}
 - {title: 'CDiffSD', name:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
 - {title: 'CDiffSD', name:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
 
