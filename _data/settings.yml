@@ -7,8 +7,8 @@ menu:
 
 projects:
 - {title: 'CDiffSD', name:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'https://github.com/Daniele-Trappolini/Diffusion-Model-for-Earthquake'}
-- {title: 'CDiffSD', name:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-- {title: 'CDiffSD', name:'Cold Diffusion Model for Seismic Denoising', abstract: 'Cold Diffusion Model for Seismic Denoising',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {title: 'Ground Motion prediction', name:'Domain Adaptation on Ground Motion prediction', abstract: 'Domain Adaptation on Ground Motion prediction',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {title: 'Weather Nowcasting', name:'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks', abstract: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks',Details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
 
 
 courses:
