@@ -12,7 +12,7 @@ projects:
 
 
 courses:
-- {name: 'Foundamental of Data Science', url: 'to be realesed'}
+- {name: 'Foundamental of Data Science', url: 'https://github.com/stdrr/FDS-tutoring/tree/main'}
 
 social:
 - {icon: 'github', link: 'https://github.com/Daniele-Trappolini'}
