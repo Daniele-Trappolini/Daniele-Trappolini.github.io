@@ -20,5 +20,5 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/daniele-trappolini-5789761b6/'}
 
 contacts:
-- {name: 'Daniele Trappolini', title: 'Ph.D student', department: 'Department of Computer, Control and Management Engineering', institution: 'Sapienza University of Rome', email: 'daniele.trappolini@uniroma1.com', image: 'assets/img/Sapienza_image.jpg'}
-- {title: 'INGV (Istituto Nazionale di Geofisica e Vulcanologia)', email: 'daniele.trappolini@ingv.it', image: 'assets/img/INGV_image.jpg'}
+- {name: 'Daniele Trappolini', title: 'Ph.D student', department: 'Department of Computer, Control and Management Engineering', institution: 'Sapienza University of Rome',address: 'Via Ariosto, 25, 00185 Roma RM',email: 'daniele.trappolini@uniroma1.com', image: 'assets/img/Sapienza_image.jpg'}
+- {title: 'INGV (Istituto Nazionale di Geofisica e Vulcanologia)', address: 'Via di Vigna Murata, 605, 00143 Roma RM',email: 'daniele.trappolini@ingv.it', image: 'assets/img/INGV_image.jpg'}
