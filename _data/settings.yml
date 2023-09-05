@@ -20,4 +20,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/daniele-trappolini-5789761b6/'}
 
 contacts:
-- {name: 'Daniele Trappolini', title: 'Ph.D student', department: 'Department of Computer, Control and Management Engineering', institution: 'Sapienza University of Rome', email: 'daniele.trappolini@uniroma1.com', email2: 'daniele.trappolini@ingv.it', image: 'assets/img/contact.jpg'}
+- {name: 'Daniele Trappolini', title: 'Ph.D student', department: 'Department of Computer, Control and Management Engineering', institution: 'Sapienza University of Rome', email: 'daniele.trappolini@uniroma1.com', email2: 'daniele.trappolini@ingv.it', image: 'assets/img/Sapienza_image.jpg'}
