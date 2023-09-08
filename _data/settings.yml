@@ -18,8 +18,8 @@ social:
 - {icon: 'github', link: 'https://github.com/Daniele-Trappolini'}
 - {icon: 'twitter', link: 'https://twitter.com/i/flow/login?redirect_after_login=%2FLeleTrappo'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/daniele-trappolini-5789761b6/'}
-- {icon: 'google sholar', link: 'https://scholar.google.com/citations?user=lr_guzwAAAAJ&hl=it'}
-- {icon: 'pin lab', link: 'https://www.pinlab.org/people'}
+- {icon: 'google scholar', link: 'https://scholar.google.com/citations?user=lr_guzwAAAAJ&hl=it'}
+- {icon: 'google', link: 'https://www.pinlab.org/people'}
 
 contacts:
 - {name: 'Daniele Trappolini', title: 'Ph.D student', department: 'Department of Computer, Control and Management Engineering', institution: 'Sapienza University of Rome',address: 'Via Ariosto, 25, 00185 Roma RM',email: 'daniele.trappolini@uniroma1.com', image: 'assets/img/Sapienza_image.jpg'}
