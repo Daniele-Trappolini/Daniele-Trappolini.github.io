@@ -2,8 +2,8 @@
 layout: page
 title: "CDiffSD"
 ---
-
-<img src="[https://github.com/Daniele-Trappolini/Daniele-Trappolini.github.io/blob/main/assets/img/CDiffSD_poster.jpg]"
+![Alt text]([image link](https://github.com/Daniele-Trappolini/Daniele-Trappolini.github.io/blob/main/assets/img/CDiffSD_poster.jpg))
+<img src="https://github.com/Daniele-Trappolini/Daniele-Trappolini.github.io/blob/main/assets/img/CDiffSD_poster.jpg"
      alt="CDiffSD output example"
      style="float: left; margin-right: 10px;" />
 ---
