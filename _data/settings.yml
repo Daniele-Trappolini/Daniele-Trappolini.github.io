@@ -6,9 +6,9 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 projects:
-- {title: 'CDiffSD', name: 'CDiffSD', abstract: 'Cold Diffusion Model for Seismic Denoising', details: 'ciao',image: 'assets/img/CDiffSD_poster.jpg', url: 'CDiffSD'}
-- {title: 'Ground Motion prediction', name: 'Domain Adaptation on Ground Motion prediction', abstract: 'Domain Adaptation on Ground Motion prediction',details: 'ciao',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-- {title: 'Weather Nowcasting', name: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks', abstract: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks', details: 'ciao', image: 'assets/img/Weather_Nowcasting_Poster.jpg', url: 'primary-investigator'}
+- {title: 'CDiffSD', name: 'CDiffSD', github: 'https://github.com/Daniele-Trappolini/Diffusion-Model-for-Earthquake' , details: 'Submitted at JGR',image: 'assets/img/CDiffSD_poster.jpg', url: 'CDiffSD'}
+- {title: 'Ground Motion prediction', name: 'Domain Adaptation on Ground Motion prediction', github: 'soon available',details: 'Work in progress',image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {title: 'Weather Nowcasting', name: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks', github: 'soon available', details: 'Paper to be submitted', image: 'assets/img/Weather_Nowcasting_Poster.jpg', url: 'primary-investigator'}
 
 
 courses:
