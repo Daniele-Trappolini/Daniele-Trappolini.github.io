@@ -12,7 +12,8 @@ projects:
 
 
 courses:
-- {name: 'Foundamental of Data Science', url: 'https://github.com/stdrr/FDS-tutoring/tree/main'}
+- {name: 'Foundamental of Data Science', url: 'https://github.com/stdrr/FDS-tutoring'}
+- {name: 'Elements of Seismology & Machine Learning', url: 'assets/presentation/2024_02_23_ML_seismology.pptx'}
 
 social:
 - {icon: 'github', link: 'https://github.com/Daniele-Trappolini'}
