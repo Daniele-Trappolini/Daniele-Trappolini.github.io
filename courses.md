@@ -1,4 +1,4 @@
 ---
-layout: courses
+layout: Courses
 title: "Courses"
 ---
