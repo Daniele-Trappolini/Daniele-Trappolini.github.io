@@ -7,6 +7,6 @@ I served as a teaching assistant for the "Elements of Seismology & Machine Learn
 
 #### Course Material
 
-[Course Material](/courses/Seismology/2024_02_23_ML_seismology.pptx)
+[Course Material](https://github.com/Daniele-Trappolini/Daniele-Trappolini.github.io/blob/main/courses/Seismology/2024_02_23_ML_seismology.pptx)
 
 
