@@ -13,7 +13,7 @@ projects:
 
 courses:
 - {name: 'Foundamental of Data Science', url: 'FDS'}
-- {name: 'Elements of Seismology & Machine Learning', url: 'assets/presentation/2024_02_23_ML_seismology.pptx'}
+- {name: 'Elements of Seismology & Machine Learning', url: 'Seismology'}
 
 social:
 - {icon: 'github', link: 'https://github.com/Daniele-Trappolini'}
