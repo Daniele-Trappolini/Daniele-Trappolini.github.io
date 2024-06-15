@@ -53,6 +53,7 @@ contacts:
     address: 'Via Ariosto, 25, 00185 Roma RM'
     email: 'daniele.trappolini@uniroma1.com'
     image: 'assets/img/Sapienza_image.jpg'
+    
   - title: 'INGV (Istituto Nazionale di Geofisica e Vulcanologia)'
     institution: 'Seismology Section'
     address: 'Via di Vigna Murata, 605, 00143 Roma RM'
