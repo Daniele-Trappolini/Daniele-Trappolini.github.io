@@ -10,6 +10,7 @@ projects:
     name: 'CDiffSD'
     github: 'https://github.com/Daniele-Trappolini/Diffusion-Model-for-Earthquake' 
     details: 'Accepted at JGR: Machine Learning and Computation 6 May 2024 '
+    details_file: "projects/CDiffSD.md"
     image: 'assets/img/projects/JGR-CDIFFSD.jpg'
     
   - title: 'Encodec'
