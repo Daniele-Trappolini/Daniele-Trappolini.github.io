@@ -10,3 +10,5 @@ I served as a teaching assistant for the "Elements of Seismology & Machine Learn
 [Course Material](https://docs.google.com/presentation/d/1JP9R4Wpbix8epRfGRIEMUXGukZgCzEUHuh58xijjfkI/edit?usp=sharing)
 
 
+
+

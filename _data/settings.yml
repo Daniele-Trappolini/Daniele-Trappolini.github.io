@@ -34,6 +34,7 @@ courses:
 
   - name: 'Elements of Seismology & Machine Learning'
     url: 'Seismology'
+    slides: 'assets/slides/ML_seismology.pdf'
 
 social:
   - icon: 'github'

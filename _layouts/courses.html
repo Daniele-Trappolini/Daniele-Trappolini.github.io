@@ -8,7 +8,12 @@ layout: default
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Courses</h3>
     {% for course in site.data.settings.courses %}
-      <p><a href="{{ site.github.url }}/courses/{{ course.url }}">{{ course.name }}</a></p>
+      <div class="mb-3">
+        <p><a href="{{ site.github.url }}/courses/{{ course.url }}">{{ course.name }}</a></p>
+        {% if course.slides %}
+          <p><a href="{{ site.github.url }}/{{ course.slides }}" target="_blank">View Slides</a></p>
+        {% endif %}
+      </div>
     {% endfor %}
   </div>
 </div>
