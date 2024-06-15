@@ -10,7 +10,7 @@ projects:
     name: 'CDiffSD'
     github: 'https://github.com/Daniele-Trappolini/Diffusion-Model-for-Earthquake' 
     details: 'Accepted at JGR: Machine Learning and Computation 6 May 2024 '
-    image: 'assets/img/projects/JGR-CDIFFSD.jpg'
+    image: 'assets/img/JGR-CDIFFSD.jpg'
     
   - title: 'Encodec'
     name: 'SeismicAE: autoencoder for seismic waveforms embedding'
