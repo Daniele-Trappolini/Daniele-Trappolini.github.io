@@ -6,14 +6,28 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 projects:
-- {title: 'CDiffSD', name: 'CDiffSD', github: 'https://github.com/Daniele-Trappolini/Diffusion-Model-for-Earthquake' , details: 'Submitted at JGR'}
-- {title: 'Ground Motion prediction', name: 'Domain Adaptation on Ground Motion prediction', github: 'soon available',details: 'Work in progress'}
-- {title: 'Weather Nowcasting', name: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks', github: 'soon available', details: 'Paper to be submitted'}
+- title: 'CDiffSD'
+  name: 'CDiffSD'
+  github: 'https://github.com/Daniele-Trappolini/Diffusion-Model-for-Earthquake' 
+  details: 'Submitted at JGR'
+  image: 'assets/images/projects/JGR-CDIFFSD.jpg'
+
+- title: 'Ground Motion prediction'
+  name: 'Domain Adaptation on Ground Motion prediction'
+  github: 'soon available'
+  details: 'Work in progress'
+
+- title: 'Weather Nowcasting'
+  name: 'Mesoscale precipitation nowcasting from weather radar data using space-time-separable graph convolutional networks'
+  github: 'soon available'
+  details: 'Paper to be submitted'
 
 
 courses:
-- {name: 'Foundamental of Data Science', url: 'FDS'}
-- {name: 'Elements of Seismology & Machine Learning', url: 'Seismology'}
+- name: 'Foundamental of Data Science'
+  url: 'FDS'
+- name: 'Elements of Seismology & Machine Learning'
+  url: 'Seismology'
 
 social:
 - {icon: 'github', link: 'https://github.com/Daniele-Trappolini'}
