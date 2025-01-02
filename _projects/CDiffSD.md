@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "CDiffSD"
+permalink: /projects/cdiffsd/
 ---
 
 # CDiffSD

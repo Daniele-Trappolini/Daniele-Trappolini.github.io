@@ -4,3 +4,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Daniele Trappolini" # the name of your site, e.g. ACME Corp.
 description: "Phd Student in Data Science at Sapienza, University of Rome and INGV."
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/

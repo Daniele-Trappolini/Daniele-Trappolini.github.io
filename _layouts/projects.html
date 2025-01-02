@@ -5,11 +5,11 @@ layout: default
 {{ content }}
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Projects</h3>
-{% for project in site.data.settings.projects %}
+{% for project in site.projects %}
 <div class="row g-5 mb-5">
   <div class="col-md-6">
     <h5>{{ project.title }}</h5>
-    <p><strong>Name:</strong> {{ project.name }}</p>
+    <p><strong>Name:</strong> {{ project.title }}</p>
     <p><strong>Github Page:</strong> 
       {% if project.github %}
         <a href="{{ project.github }}" target="_blank">{{ project.github }}</a>
@@ -17,15 +17,12 @@ layout: default
         Not available
       {% endif %}
     </p>
-    <p><strong>Details:</strong> {{ project.details }}</p>
-    {% if project.details_file %}
     <p>
-      <a href="{{ project.details_file | relative_url }}" class="btn btn-primary">More Info</a>
+      <a href="{{ project.url }}" class="btn btn-primary">More Info</a>
     </p>
-    {% endif %}
   </div>
   <div class="col-md-6">
-    <img src="{{ project.image | relative_url }}" alt="{{ project.name }}" class="img-fluid rounded">
+    <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="img-fluid rounded">
   </div>
 </div>
 {% endfor %}
