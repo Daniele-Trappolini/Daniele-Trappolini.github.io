@@ -6,13 +6,20 @@ layout: default
 <div class="row g-5 mb-5">
   {% for course in site.courses %}
   <div class="col-md-6">
-    <h5><a href="{{ course.url }}">{{ course.title }}</a></h5>
+    <h5>{{ course.title }}</h5>
     <p>{{ course.excerpt | strip_html }}</p>
+    
+    <!-- Pulsante "View Slides" -->
     {% if course.slides %}
     <p>
       <a href="{{ course.slides | relative_url }}" class="btn btn-secondary" target="_blank">View Slides</a>
     </p>
     {% endif %}
+    
+    <!-- Pulsante "More Details" -->
+    <p>
+      <a href="{{ course.url }}" class="btn btn-primary">More Details</a>
+    </p>
   </div>
   {% endfor %}
 </div>
