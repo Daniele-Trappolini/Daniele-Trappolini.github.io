@@ -1,21 +1,80 @@
+/* Imposta il colore di sfondo e del testo principali */
 body.dark-mode {
-    background-color: #121212;
+    background-color: #121212; /* Sfondo scuro */
+    color: #ffffff; /* Testo bianco */
+  }
+  
+  /* Modifica i link per la dark mode */
+  body.dark-mode a {
+    color: #4dabf7; /* Un blu chiaro per i link */
+  }
+  
+  body.dark-mode a:hover {
+    color: #82cfff; /* Colore più chiaro per l'hover */
+  }
+  
+  /* Specifica il colore del testo nelle intestazioni */
+  body.dark-mode h1, 
+  body.dark-mode h2, 
+  body.dark-mode h3, 
+  body.dark-mode h4, 
+  body.dark-mode h5, 
+  body.dark-mode h6 {
+    color: #ffffff; /* Tutte le intestazioni in bianco */
+  }
+  
+  /* Specifica il colore per paragrafi, liste e altri testi */
+  body.dark-mode p,
+  body.dark-mode li,
+  body.dark-mode span,
+  body.dark-mode div {
     color: #ffffff;
   }
   
-  .toggle-dark-mode {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
+  /* Modifica lo stile dei bordi (opzionale) */
+  body.dark-mode .border {
+    border-color: #ffffff;
   }
   
-  .toggle-dark-mode:hover {
-    background-color: #0056b3;
+  /* Modifica i pulsanti (se presenti) */
+  body.dark-mode button, 
+  body.dark-mode .btn {
+    background-color: #1e1e1e; /* Colore del pulsante scuro */
+    color: #ffffff; /* Testo bianco */
+    border-color: #ffffff; /* Bordi bianchi */
+  }
+  
+  body.dark-mode button:hover, 
+  body.dark-mode .btn:hover {
+    background-color: #333333; /* Colore del pulsante all'hover */
+    color: #82cfff; /* Colore del testo all'hover */
+  }
+  
+  /* Modifica tabelle (se presenti) */
+  body.dark-mode table {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  body.dark-mode th, 
+  body.dark-mode td {
+    border-color: #ffffff;
+  }
+  
+  /* FontAwesome o icone */
+  body.dark-mode .fa {
+    color: #ffffff;
+  }
+  
+  /* Navbar o header (se presente) */
+  body.dark-mode .navbar {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  /* Footer (se presente) */
+  body.dark-mode footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
   }
   
