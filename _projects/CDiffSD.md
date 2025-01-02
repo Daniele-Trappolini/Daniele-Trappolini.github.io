@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "CDiffSD"
+github: "https://github.com/Daniele-Trappolini/Diffusion-Model-for-Earthquake"
+image: "/assets/img/projects/JGR-CDIFFSD.jpg"
 permalink: /projects/cdiffsd/
 ---
-
-# CDiffSD
 
 Seismic waves contain information about the earthquake (EQ) source and many forms of noise deriving from the seismometer, anthropogenic effects, background noise associated with ocean waves, and microseismic noise. Separating the noise from the EQ signal is a critical first step in EQ physics and seismic waveform analysis. However, this is difficult because optimal parameters for filtering noise typically vary with time and may strongly alter the shape of the waveform.
 
