@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h3 class="fw-bold border-bottom pb-3 mb-5">Courses</h3>
+<div class="row g-5 mb-5">
+  {% for course in site.data.settings.courses %}
+  <div class="col-md-6">
+    <h5>{{ course.name }}</h5>
+    <p><strong>Details:</strong> {{ course.url }}</p>
+    <!-- Aggiungi il link "View Slides" solo se ci sono slide -->
+    {% if course.slides %}
+    <p>
+      <a href="{{ course.slides | relative_url }}" class="btn btn-primary" target="_blank">View Slides</a>
+    </p>
+    {% else %}
+    <p><em>No slides available</em></p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
