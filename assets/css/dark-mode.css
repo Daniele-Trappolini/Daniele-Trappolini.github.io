@@ -4,57 +4,58 @@ body.dark-mode {
   color: #ffffff;
 }
 
-/* Testo Generale */
+/* Titoli e intestazioni */
 body.dark-mode h1, 
 body.dark-mode h2, 
 body.dark-mode h3, 
 body.dark-mode h4, 
 body.dark-mode h5, 
-body.dark-mode h6, 
-body.dark-mode p, 
-body.dark-mode span, 
-body.dark-mode div {
-  color: #ffffff;
+body.dark-mode h6 {
+  color: #ffffff !important; /* Titoli bianchi */
 }
 
-/* Link Generici */
+/* Paragrafi e testo generale */
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode div {
+  color: #ffffff !important; /* Testo bianco */
+}
+
+/* Link generici */
 body.dark-mode a {
-  color: #4dabf7;
+  color: #4dabf7 !important; /* Link blu chiaro */
 }
 
 body.dark-mode a:hover {
-  color: #82cfff;
+  color: #82cfff !important; /* Link blu più chiaro su hover */
 }
 
-/* Navbar */
-body.dark-mode .navbar {
-  background-color: #1e1e1e;
-  color: #ffffff;
-}
-
+/* Navbar e menu */
+body.dark-mode .navbar,
+body.dark-mode .navbar-nav,
 body.dark-mode .navbar a {
-  color: #ffffff;
+  background-color: #1e1e1e !important; /* Sfondo scuro */
+  color: #ffffff !important; /* Testo bianco */
 }
 
 body.dark-mode .navbar a:hover {
-  color: #82cfff;
+  color: #82cfff !important; /* Testo blu chiaro su hover */
 }
 
 /* Footer */
-body.dark-mode footer {
-  background-color: #1e1e1e;
-  color: #ffffff;
-}
-
+body.dark-mode footer,
+body.dark-mode footer p,
+body.dark-mode footer span,
 body.dark-mode footer a {
-  color: #4dabf7;
+  background-color: #1e1e1e !important; /* Sfondo scuro */
+  color: #ffffff !important; /* Testo bianco */
 }
 
 body.dark-mode footer a:hover {
-  color: #82cfff;
+  color: #82cfff !important; /* Footer link blu chiaro */
 }
 
-/* Liste e Voci di Menu */
+/* Liste e voci di menu */
 body.dark-mode ul,
 body.dark-mode ol {
   color: #ffffff;
@@ -83,7 +84,7 @@ body.dark-mode .btn:hover {
   color: #82cfff;
 }
 
-/* Icone */
+/* Icone (FontAwesome o Simili) */
 body.dark-mode .fa, 
 body.dark-mode .icon {
   color: #ffffff;
@@ -96,7 +97,8 @@ body.dark-mode .icon:hover {
 
 /* Immagini */
 body.dark-mode img {
-  filter: brightness(0.8);
+  filter: brightness(0.8); /* Riduce la luminosità */
+  transition: filter 0.3s; /* Transizione graduale */
 }
 
 /* Tabelle */
