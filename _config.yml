@@ -8,3 +8,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+  courses:
+    output: true
+    permalink: /courses/:name/
+
