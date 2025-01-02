@@ -9,13 +9,23 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-6">
     <h5>{{ project.title }}</h5>
-    <p>Name: {{ project.name }}</p>
-    <p>Github Page: <a href="{{ project.github }}">{{ project.github }}</a></p>
-    <p>Details: {{ project.details }}</p>
-    <p><a href="{{ site.github.url }}/projects/{{ project.details_file }}">More info</a></p>
+    <p><strong>Name:</strong> {{ project.name }}</p>
+    <p><strong>Github Page:</strong> 
+      {% if project.github %}
+        <a href="{{ project.github }}" target="_blank">{{ project.github }}</a>
+      {% else %}
+        Not available
+      {% endif %}
+    </p>
+    <p><strong>Details:</strong> {{ project.details }}</p>
+    {% if project.details_file %}
+    <p>
+      <a href="{{ site.github.url }}/{{ project.details_file }}" class="btn btn-primary" target="_blank">More Info</a>
+    </p>
+    {% endif %}
   </div>
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/{{ project.image }}" alt="{{ project.name }}" width="100%">
+    <img src="{{ site.github.url }}/{{ project.image }}" alt="{{ project.name }}" class="img-fluid rounded">
   </div>
 </div>
 {% endfor %}
