@@ -1,72 +1,130 @@
 /* Sfondo e colore generale */
 body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-  }
-  
-  /* Link generici */
-  body.dark-mode a {
-    color: #4dabf7; /* Blu chiaro */
-  }
-  
-  body.dark-mode a:hover {
-    color: #82cfff; /* Blu più chiaro */
-  }
-  
-  /* Barra di navigazione */
-  body.dark-mode .navbar {
-    background-color: #1e1e1e; /* Sfondo scuro */
-    color: #ffffff; /* Testo bianco */
-  }
-  
-  body.dark-mode .navbar a {
-    color: #ffffff; /* Link nella navbar */
-  }
-  
-  body.dark-mode .navbar a:hover {
-    color: #82cfff; /* Hover nei link della navbar */
-  }
-  
-  /* Footer */
-  body.dark-mode footer {
-    background-color: #1e1e1e;
-    color: #ffffff;
-  }
-  
-  body.dark-mode footer a {
-    color: #4dabf7;
-  }
-  
-  body.dark-mode footer a:hover {
-    color: #82cfff;
-  }
-  
-  /* Liste e voci di menu */
-  body.dark-mode ul,
-  body.dark-mode ol {
-    color: #ffffff;
-    background-color: transparent;
-  }
-  
-  body.dark-mode li a {
-    color: #4dabf7;
-  }
-  
-  body.dark-mode li a:hover {
-    color: #82cfff;
-  }
-  
-  /* Pulsanti */
-  body.dark-mode button,
-  body.dark-mode .btn {
-    background-color: #333333;
-    color: #ffffff;
-    border-color: #ffffff;
-  }
-  
-  body.dark-mode button:hover,
-  body.dark-mode .btn:hover {
-    background-color: #555555;
-    color: #82cfff;
-  }
-  
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Testo Generale */
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6, 
+body.dark-mode p, 
+body.dark-mode span, 
+body.dark-mode div {
+  color: #ffffff;
+}
+
+/* Link Generici */
+body.dark-mode a {
+  color: #4dabf7;
+}
+
+body.dark-mode a:hover {
+  color: #82cfff;
+}
+
+/* Navbar */
+body.dark-mode .navbar {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .navbar a {
+  color: #ffffff;
+}
+
+body.dark-mode .navbar a:hover {
+  color: #82cfff;
+}
+
+/* Footer */
+body.dark-mode footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode footer a {
+  color: #4dabf7;
+}
+
+body.dark-mode footer a:hover {
+  color: #82cfff;
+}
+
+/* Liste e Voci di Menu */
+body.dark-mode ul,
+body.dark-mode ol {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+body.dark-mode li a {
+  color: #4dabf7;
+}
+
+body.dark-mode li a:hover {
+  color: #82cfff;
+}
+
+/* Pulsanti */
+body.dark-mode button,
+body.dark-mode .btn {
+  background-color: #333333;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+body.dark-mode button:hover,
+body.dark-mode .btn:hover {
+  background-color: #555555;
+  color: #82cfff;
+}
+
+/* Icone */
+body.dark-mode .fa, 
+body.dark-mode .icon {
+  color: #ffffff;
+}
+
+body.dark-mode .fa:hover, 
+body.dark-mode .icon:hover {
+  color: #82cfff;
+}
+
+/* Immagini */
+body.dark-mode img {
+  filter: brightness(0.8);
+}
+
+/* Tabelle */
+body.dark-mode table {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+body.dark-mode th, 
+body.dark-mode td {
+  border-color: #ffffff;
+}
+
+/* Campi di Input */
+body.dark-mode input,
+body.dark-mode textarea {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+body.dark-mode input::placeholder, 
+body.dark-mode textarea::placeholder {
+  color: #cccccc;
+}
+
+/* Bordo degli Elementi */
+body.dark-mode .border {
+  border-color: #ffffff;
+}
