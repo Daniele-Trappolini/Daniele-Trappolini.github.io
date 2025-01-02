@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CDiffSD"
+title: "Cold Diffusion Model for Seismic Denoising"
 github: "https://github.com/Daniele-Trappolini/Diffusion-Model-for-Earthquake"
 image: "/assets/img/projects/JGR-CDIFFSD.jpg"
 permalink: /projects/cdiffsd/
