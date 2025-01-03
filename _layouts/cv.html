@@ -1,17 +1,43 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  {% include head.html %}
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
-  <body>
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
+    <!-- Sezione Education -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-6">
+        <h4>Education</h4>
+        {% for section in site.data.cv.education %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-md-6">
+        <h4>Job Experience</h4>
+        {% for section in site.data.cv.academic-experience %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
     </div>
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ '/assets/libs/dark-mode.js' | relative_url }}"></script>
-  </body>
-</html>
+    <!-- Sezione Attività Educative -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-6">
+        <h4>Educational Activity</h4>
+        {% for activity in site.data.cv.educational-activities %}
+          <p class="fw-bold">{{ activity.title }}</p>
+          <p>{{ activity.location }}, {{ activity.date }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-md-6">
+        <h4>Altro (Opzionale)</h4>
+        <!-- Aggiungi qui eventuali altre sezioni o contenuti -->
+        <p>Sezione personalizzabile per altre informazioni.</p>
+      </div>
+    </div>
+  </div>
+</div>
