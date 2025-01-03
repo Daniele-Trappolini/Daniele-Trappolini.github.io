@@ -7,26 +7,36 @@ layout: default
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
+    <!-- Sezione Education -->
     <div class="row g-5 mb-5">
-      <div class="col-md-2">
+      <div class="col-md-6">
         <h4>Education</h4>
-      </div>
-      <div class="col-md-10">
         {% for section in site.data.cv.education %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
       </div>
-    </div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
+      <div class="col-md-6">
         <h4>Job Experience</h4>
-      </div>
-      <div class="col-md-10">
         {% for section in site.data.cv.academic-experience %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
+      </div>
+    </div>
+    <!-- Sezione Attività Educative -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-6">
+        <h4>Attività Educative</h4>
+        {% for activity in site.data.educational-activities.educational_activities %}
+          <p class="fw-bold">{{ activity.title }}</p>
+          <p>{{ activity.location }}, {{ activity.date }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-md-6">
+        <h4>Altro (Opzionale)</h4>
+        <!-- Aggiungi qui eventuali altre sezioni o contenuti -->
+        <p>Sezione personalizzabile per altre informazioni.</p>
       </div>
     </div>
   </div>
