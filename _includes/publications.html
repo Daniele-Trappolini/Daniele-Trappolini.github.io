@@ -3,11 +3,21 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
-        <p><a href="{{ item.url }}">{{ item.title }}</a> - {{ item.journal }} ({{ item.year }})</p>
+        <p>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+          {% if item.journal %} - {{ item.journal }}{% endif %}
+          {% if item.event %} - {{ item.event }}{% endif %}
+          ({{ item.year }})
+        </p>
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}">{{ item.title }}</a> - {{ item.journal }} ({{ item.year }})</p>
+        <p>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+          {% if item.journal %} - {{ item.journal }}{% endif %}
+          {% if item.event %} - {{ item.event }}{% endif %}
+          ({{ item.year }})
+        </p>
       {% endfor %}
     {% endif %}
   </div>
