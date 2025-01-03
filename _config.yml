@@ -12,3 +12,14 @@ collections:
     output: true
     permalink: /courses/:name/
 
+# Impostazioni personalizzate
+defaults:
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: publications
+
+# Dati e percorsi
+data_files:
+  publications: "_data/publications.yml" # Percorso del file YAML per le pubblicazioni
